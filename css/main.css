@@ -31,7 +31,7 @@ body {
     width: 100%;
     max-width: 540px;
     margin: 0 auto;
-    background-color: #fff; }
+    background-color: #eeefef; }
 
 .top {
   background-color: #abcd03; }
@@ -56,5 +56,34 @@ body {
         .top-logo-right img:last-child {
           width: 100%;
           padding-top: 11%; }
+
+.index .search {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  .index .search-input {
+    width: 86%; }
+    .index .search-input input {
+      width: 90%;
+      height: 28px;
+      line-height: 28px;
+      font-size: 15px;
+      border: 1px solid #9f9fa0;
+      padding: 0 5%; }
+  .index .search-btn {
+    width: 14%; }
+    .index .search-btn button {
+      width: 100%;
+      height: 30px;
+      background-color: #9f9fa0;
+      background-image: url(../images/icon-search.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: auto 96%; }
 
 /*# sourceMappingURL=main.css.map */
