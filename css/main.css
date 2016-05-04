@@ -85,5 +85,17 @@ body {
       background-repeat: no-repeat;
       background-position: center center;
       background-size: auto 96%; }
+.index .refresh {
+  text-align: right;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 12px;
+  height: 20px;
+  position: relative; }
+  .index .refresh img {
+    position: absolute;
+    right: 38px;
+    top: -2px;
+    height: 100%; }
 
 /*# sourceMappingURL=main.css.map */

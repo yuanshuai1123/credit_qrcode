@@ -122,4 +122,20 @@ body {
       }
     }
   }
+
+  .refresh {
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 12px;
+    height: 20px;
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 38px;
+      top: -2px;
+      height: 100%;
+    }
+  }
 }
