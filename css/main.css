@@ -33,4 +33,28 @@ body {
     margin: 0 auto;
     background-color: #fff; }
 
+.top {
+  background-color: #abcd03; }
+  .top-logo {
+    width: 90%;
+    padding: 5% 5% 4% 5%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+    .top-logo-left {
+      width: 70%; }
+      .top-logo-left img {
+        width: 100%; }
+    .top-logo-right {
+      width: 24%;
+      padding-left: 3%;
+      text-align: right; }
+      .top-logo-right img {
+        width: 20%; }
+        .top-logo-right img:last-child {
+          width: 100%;
+          padding-top: 11%; }
+
 /*# sourceMappingURL=main.css.map */

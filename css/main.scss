@@ -44,3 +44,41 @@ body {
     background-color: #fff;
   }
 }
+
+.top {
+  background-color: #abcd03;
+
+  &-logo {
+    width: 90%;
+    padding: 5% 5% 4% 5%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+
+    &-left {
+      width: 70%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &-right {
+      width: 24%;
+      padding-left: 3%;
+      text-align: right;
+
+      img {
+        width: 20%;
+
+        &:last-child {
+          width: 100%;
+          padding-top: 11%; 
+        }
+      }
+    }
+  }
+}
